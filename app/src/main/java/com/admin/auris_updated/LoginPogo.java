@@ -6,6 +6,7 @@ import com.google.gson.annotations.SerializedName;
 
     public class LoginPogo {
 
+
         @SerializedName("status")
         @Expose
         private Integer status;
