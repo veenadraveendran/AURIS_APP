@@ -12,7 +12,6 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 
 public interface RetrofitInterface {
-
         @FormUrlEncoded
         @POST("user_insert.php")
         Call<InsertPojo> Register(@FieldMap  HashMap<String,String>  hashMap);
