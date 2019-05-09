@@ -225,6 +225,8 @@ public class MainActivityPartialDeaf extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.hear) {
             Intent intent = new Intent(getApplicationContext(), SpeechToText.class);
+
+
             startActivity(intent);
         }else if (id == R.id.around) {
             Intent intent = new Intent(getApplicationContext(), Add_Reminders.class);
