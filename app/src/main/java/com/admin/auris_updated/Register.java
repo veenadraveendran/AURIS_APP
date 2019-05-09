@@ -330,6 +330,8 @@ regiser.setOnClickListener(new View.OnClickListener() {
                         Intent intent = new Intent(Register.this, Login.class);
                         startActivity(intent);
                         finish();
+
+
                     }
                 }
 
