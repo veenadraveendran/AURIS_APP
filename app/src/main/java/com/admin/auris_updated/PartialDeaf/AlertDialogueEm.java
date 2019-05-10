@@ -91,6 +91,8 @@ public class AlertDialogueEm extends Activity {
             Toast.makeText(context,ex.toString(),
                     Toast.LENGTH_LONG).show();
 
+
+
             finish();
             ex.printStackTrace();
         }
