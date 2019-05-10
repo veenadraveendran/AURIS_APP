@@ -49,6 +49,8 @@ public class AlertDialogueEm extends Activity {
                 finish();
             }
         });
+
+
         yes.setOnClickListener(new View.OnClickListener() {
 
             @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
