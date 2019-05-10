@@ -121,6 +121,9 @@ public class EmergencyService  extends Service {
                     builder.setContentText("Emergency Message Alert");
                     builder.setSubText("Tap to Send Emegency message.");
 
+
+
+
                   NotificationManager notificationManager = (NotificationManager) getApplicationContext().getSystemService(NOTIFICATION_SERVICE);
 //
 //                    // Will display the notification in the notification bar
