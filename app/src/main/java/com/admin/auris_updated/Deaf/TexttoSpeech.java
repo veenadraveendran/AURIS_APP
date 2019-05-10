@@ -58,6 +58,9 @@ public  class TexttoSpeech extends AppCompatActivity implements TextToSpeech.OnI
 
         } else {
 
+
+
+
             Log.e("TTS", "Initilization Failed!");
         }
     }
