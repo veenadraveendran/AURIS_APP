@@ -37,6 +37,8 @@ public class EmergencyService  extends Service {
             int period = 2000;  // repeat every 3 sec.
             Timer timer = new Timer();
             Emergencyreceiver receiver = new Emergencyreceiver();
+
+
             IntentFilter intentFilter = new IntentFilter("android.intent.action.EVENT_EMEGENCY");
             registerReceiver(receiver, intentFilter);
             timer.scheduleAtFixedRate(new TimerTask() {
