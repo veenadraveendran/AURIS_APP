@@ -16,6 +16,10 @@ public class TalkToFriends extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_talk_tofriends);
         speak =findViewById(R.id.speech);
+
+
+
+
         text =findViewById(R.id.text);
 
 /********************* speech to text ****************************************/
