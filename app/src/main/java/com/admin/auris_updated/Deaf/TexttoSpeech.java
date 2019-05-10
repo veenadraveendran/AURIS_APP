@@ -18,6 +18,8 @@ public  class TexttoSpeech extends AppCompatActivity implements TextToSpeech.OnI
     private ImageButton bt;
     private EditText txt;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
