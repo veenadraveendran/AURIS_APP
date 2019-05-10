@@ -75,6 +75,9 @@ public class AlertDialogueEm extends Activity {
         });
         dialog1.show();
 
+
+
+
     }
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     public void sendSMS(Context context, String phoneNo, String msg) {
