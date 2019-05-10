@@ -34,6 +34,8 @@ public  class TexttoSpeech extends AppCompatActivity implements TextToSpeech.OnI
         speak();
     }
 
+
+
     @Override
     public void onDestroy() {
         if (tts != null) {
