@@ -19,6 +19,9 @@ import java.util.Locale;
 public  class SpeechToText  extends AppCompatActivity {
     private final int SPEECH_RECOGNITION_CODE = 1;
     private TextView txtOutput;
+
+
+
     private ImageButton btnMicrophone;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
