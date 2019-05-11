@@ -87,6 +87,7 @@ public class AlertDialogueEm extends Activity {
             Toast.makeText(AlertDialogueEm.this, "Message Sent", Toast.LENGTH_LONG).show();
 
             finish();
+
         } catch (Exception ex) {
             Toast.makeText(context,ex.toString(),
                     Toast.LENGTH_LONG).show();
