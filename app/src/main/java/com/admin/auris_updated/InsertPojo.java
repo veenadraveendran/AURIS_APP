@@ -15,6 +15,8 @@ public class InsertPojo {
     public Boolean getError() {
         return error;
     }
+
+
     public void setError(Boolean error) {
         this.error = error;
     }
