@@ -14,6 +14,8 @@ public class Emergencyreceiver extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
         if(Utilites.getSharedPrferencedata(context,"ems").equals("1")) {
             Intent i = new Intent(context, AlertDialogueEm.class);
+
+
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(i);
 
