@@ -25,6 +25,7 @@ public class EventService extends Service {
 
         try {
             int delay = 2000;   // delay for 2 sec.
+
             int period = 30*1000;  // repeat every 30 sec.
             Timer timer = new Timer();
             EventReceiver receiver = new EventReceiver();
