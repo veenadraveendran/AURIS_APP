@@ -28,6 +28,9 @@ public class EventService extends Service {
             timer.scheduleAtFixedRate(new TimerTask() {
                 public void run() {
 
+
+
+
                     String flag = Utilites.readCalendarEvents(getApplicationContext());
                     if (flag.equals("true")) {
                         Intent intent = new Intent("android.intent.action.EVENT_REMINDER");
