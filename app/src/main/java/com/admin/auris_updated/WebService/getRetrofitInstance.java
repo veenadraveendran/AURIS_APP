@@ -10,7 +10,7 @@ public class getRetrofitInstance {
 
 
 
-    
+
 
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {
