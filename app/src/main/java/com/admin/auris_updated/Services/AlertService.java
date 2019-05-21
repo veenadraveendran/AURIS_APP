@@ -35,6 +35,8 @@ public class AlertService  extends Service {
             Handler handler = new Handler();
             final Calendar date;
             final Calendar currentDate = Calendar.getInstance();
+
+            
             date = Calendar.getInstance();
 
             timer.scheduleAtFixedRate(new TimerTask() {
