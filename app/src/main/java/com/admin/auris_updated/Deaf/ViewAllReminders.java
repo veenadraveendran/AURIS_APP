@@ -23,6 +23,10 @@ public class ViewAllReminders extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_reminders_items);
 
+
+
+
+
         ListView listView = findViewById(R.id.list);
 
         ArrayList<String> list= Utilites.getCalendarEvents(ViewAllReminders.this);
