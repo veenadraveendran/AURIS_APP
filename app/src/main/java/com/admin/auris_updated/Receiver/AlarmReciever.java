@@ -27,7 +27,7 @@ public class AlarmReciever  extends BroadcastReceiver {
         int delay = 1000;   // delay for 1 sec.
         int period = 1000;  // repeat every 1 sec.
 
-        
+
         final Timer timer = new Timer();
 
         timer.scheduleAtFixedRate(new TimerTask() {
@@ -41,6 +41,8 @@ public class AlarmReciever  extends BroadcastReceiver {
                     return;
                 }else {
                     flashLightOn(context);
+
+                    
                     startVibrate(context);
                     flashLightOff(context);
                     stopVibrate(context);
