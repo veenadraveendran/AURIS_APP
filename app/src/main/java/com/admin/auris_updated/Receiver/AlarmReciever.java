@@ -26,11 +26,13 @@ public class AlarmReciever  extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
         int delay = 1000;   // delay for 1 sec.
         int period = 1000;  // repeat every 1 sec.
+
+        
         final Timer timer = new Timer();
 
         timer.scheduleAtFixedRate(new TimerTask() {
             public void run() {
-                
+
                 if(count==10){
                     flashLightOff(context);
                     stopVibrate(context);
