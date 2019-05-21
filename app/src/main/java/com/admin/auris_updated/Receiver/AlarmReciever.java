@@ -30,6 +30,7 @@ public class AlarmReciever  extends BroadcastReceiver {
 
         timer.scheduleAtFixedRate(new TimerTask() {
             public void run() {
+                
                 if(count==10){
                     flashLightOff(context);
                     stopVibrate(context);
