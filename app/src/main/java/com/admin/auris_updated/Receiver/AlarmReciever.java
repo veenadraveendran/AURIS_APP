@@ -42,7 +42,7 @@ public class AlarmReciever  extends BroadcastReceiver {
                 }else {
                     flashLightOn(context);
 
-                    
+
                     startVibrate(context);
                     flashLightOff(context);
                     stopVibrate(context);
