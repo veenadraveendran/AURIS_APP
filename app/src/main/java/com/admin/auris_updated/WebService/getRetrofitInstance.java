@@ -6,7 +6,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class getRetrofitInstance {
 
     private static Retrofit retrofit;
-    private static final String BASE_URL = "http://auris.nyesteventuretech.com/android/";
+
+
+
+
+    
 
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {
