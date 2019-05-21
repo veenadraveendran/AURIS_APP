@@ -24,6 +24,9 @@ public class VideoList extends AppCompatActivity {
     private TextView mText,subtitle;
     private SpeechRecognizer sr;
     private static final String TAG = "MyActivity";
+
+
+    
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

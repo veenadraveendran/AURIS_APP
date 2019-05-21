@@ -67,7 +67,7 @@ public  class TexttoSpeech extends AppCompatActivity implements TextToSpeech.OnI
 
     private void speak() {
 
-        
+
         String text = txt.getText().toString();
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
     }
